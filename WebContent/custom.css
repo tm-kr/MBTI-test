@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+body{
+	background-color : #693b33;
+	text-align: center;
+	font-family: 'Jua', sans-serif;
+}
+hr{
+	margin-top: 5%;
+	margin-bottom: 7%;
+}
+.form-check-inline {
+	margin-right: 0px;
+}
+h2{
+	font-size: 28px;
+}
+.question{
+	display: none;
+}
+.result{
+	padding-left: 8%;
+	padding-right: 8%;
+}	
+h5{
+	padding: 4%;
+	text-align: left;
+}
+.container{
+	padding:0;
+    background-color: white;   
+}
+footer{
+	color:white;
+	background-color : #693b33;
+}
+
+.btn-primary {
+    background-color: #693b33;
+    border-color: #693b33;
+    color: #FFF; }
+.btn-primary:hover,
+.btn-primary:focus {
+    border-color: #a06c63;
+    background-color: #a06c63;
+    color: #FFF; }
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:active:focus,
+.btn-primary:active:hover {
+    border-color: #693b33;
+    background-color: #693b33;
+    color: #FFF; }
+
+
+@media all and (min-width:768px){
+	.container{
+		width: 620px;
+	}
+	.question{
+		padding-left: 6%;
+		padding-right: 6%;
+	}
+	.form-check-inline {
+	margin-right: 1rem;
+	}
+}
